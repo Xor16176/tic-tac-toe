@@ -1,0 +1,43 @@
+.game-container {
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #eee;
+}
+
+.game-status {
+    margin-top: 20px;
+}
+
+#turn {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#result {
+    font-size: 36px;
+    font-weight: bold;
+    color: #666;
+}
